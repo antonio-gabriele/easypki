@@ -19,12 +19,11 @@ import (
 	"crypto/rand"
 	"crypto/rsa"
 	"crypto/x509"
+	"easypki/m/v2/src/certificate"
+	"easypki/m/v2/src/store"
 	"errors"
 	"fmt"
 	"time"
-
-	"github.com/google/easypki/pkg/certificate"
-	"github.com/google/easypki/pkg/store"
 )
 
 const (

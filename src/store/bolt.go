@@ -16,6 +16,7 @@ package store
 
 import (
 	"crypto/x509/pkix"
+	"easypki/m/v2/src/certificate"
 	"errors"
 	"math/big"
 	"time"
@@ -23,7 +24,6 @@ import (
 	"fmt"
 
 	"github.com/boltdb/bolt"
-	"github.com/google/easypki/pkg/certificate"
 )
 
 var (

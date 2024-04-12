@@ -18,6 +18,9 @@ package main
 import (
 	"crypto/x509"
 	"crypto/x509/pkix"
+	"easypki/m/v2/src/certificate"
+	"easypki/m/v2/src/easypki"
+	"easypki/m/v2/src/store"
 	"log"
 	"net"
 	"os"
@@ -28,9 +31,6 @@ import (
 
 	"encoding/pem"
 
-	"github.com/google/easypki/pkg/certificate"
-	"github.com/google/easypki/pkg/easypki"
-	"github.com/google/easypki/pkg/store"
 	"github.com/urfave/cli"
 )
 

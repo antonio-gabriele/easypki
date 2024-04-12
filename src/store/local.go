@@ -17,6 +17,7 @@ package store
 import (
 	"bufio"
 	"crypto/x509/pkix"
+	"easypki/m/v2/src/certificate"
 	"encoding/pem"
 	"fmt"
 	"io/ioutil"
@@ -28,8 +29,6 @@ import (
 	"time"
 
 	"crypto/x509"
-
-	"github.com/google/easypki/pkg/certificate"
 )
 
 // Predifined directory names.
