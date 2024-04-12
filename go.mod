@@ -10,7 +10,6 @@ require (
 )
 
 require (
-	github.com/google/easypki v1.1.0
 	github.com/urfave/cli v1.22.14
 	golang.org/x/sys v0.19.0 // indirect
 )
